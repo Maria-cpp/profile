@@ -809,3 +809,18 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+/* Page Section Styles (for multi-page layout) */
+.page-section {
+    padding-top: 120px;
+    min-height: calc(100vh - 80px);
+}
+
+/* Active Navigation Link */
+.nav-link.active {
+    color: var(--primary-color);
+}
+
+.nav-link.active::after {
+    width: 100%;
+}

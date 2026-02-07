@@ -1,23 +1,25 @@
 # Maria Naseem - Personal Profile
 
-A modern, responsive personal profile website built with HTML, CSS, and JavaScript. This website is designed to be hosted on GitHub Pages and serves as an online portfolio/CV.
+A modern, responsive multi-page personal profile website built with HTML, CSS, and JavaScript. This website is designed to be hosted on GitHub Pages and serves as an online portfolio/CV.
 
 ## 🌟 Features
 
+- **Multi-Page Structure**: Organized into separate pages for better navigation and maintainability
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Modern UI**: Clean and professional design with smooth animations
 - **Easy to Customize**: Simple HTML structure for easy content updates
+- **Static Website**: Runs directly from GitHub Pages without any build step
 
-## 📋 Sections
+## 📋 Pages
 
-- **Hero/Introduction**: Personal greeting and introduction
-- **About Me**: Personal details and bio
-- **Experience**: Work history and professional experience
-- **Education**: Academic background
-- **Projects**: Portfolio of work with descriptions and links
-- **Skills**: Technical and soft skills with visual progress bars
-- **Interests**: Personal hobbies and passions
-- **Contact**: Contact information and social links
+- **Home** (`index.html`): Hero section with personal greeting and introduction
+- **About** (`about.html`): Personal details and bio
+- **Experience** (`experience.html`): Work history and professional experience
+- **Education** (`education.html`): Academic background
+- **Projects** (`projects.html`): Portfolio of work with descriptions and links
+- **Skills** (`skills.html`): Technical and soft skills with visual progress bars
+- **Interests** (`interests.html`): Personal hobbies and passions
+- **Contact** (`contact.html`): Contact information and social links
 
 ## 🚀 Getting Started
 
@@ -43,30 +45,51 @@ A modern, responsive personal profile website built with HTML, CSS, and JavaScri
 
 ### Updating Content
 
-1. Open `index.html` in a text editor
-2. Replace placeholder text with your actual information:
-   - Update your name and title
-   - Add your work experience
-   - Include your education details
-   - Showcase your projects
-   - List your skills
-   - Share your interests
-   - Update contact information
+Each page is in a separate HTML file for easy editing:
+
+1. **Home Page** - Edit `index.html` to update the hero section
+2. **About Page** - Edit `about.html` to update your bio and details
+3. **Experience Page** - Edit `experience.html` to add your work history
+4. **Education Page** - Edit `education.html` to add your education
+5. **Projects Page** - Edit `projects.html` to showcase your projects
+6. **Skills Page** - Edit `skills.html` to update your skills
+7. **Interests Page** - Edit `interests.html` to share your interests
+8. **Contact Page** - Edit `contact.html` to update contact information
+
+### Adding Images
+
+Add your images to the `assets/images/` folder and reference them in your HTML:
+
+```html
+<img src="assets/images/your-image.jpg" alt="Description">
+```
 
 ### Styling
 
-- Modify `styles.css` to change colors, fonts, and layout
+- Modify `css/styles.css` to change colors, fonts, and layout
 - CSS custom properties (variables) are defined at the top for easy theming
 
 ## 📁 File Structure
 
 ```
 profile/
-├── index.html      # Main HTML file
-├── styles.css      # Stylesheet
-├── script.js       # JavaScript for interactivity
-├── README.md       # This file
-└── LICENSE         # MIT License
+├── index.html          # Home page with hero section
+├── about.html          # About page
+├── experience.html     # Experience page
+├── education.html      # Education page
+├── projects.html       # Projects page
+├── skills.html         # Skills page
+├── interests.html      # Interests page
+├── contact.html        # Contact page
+├── css/
+│   └── styles.css      # Stylesheet
+├── js/
+│   └── script.js       # JavaScript for interactivity
+├── assets/
+│   ├── README.md       # Assets documentation
+│   └── images/         # Store images here
+├── README.md           # This file
+└── LICENSE             # MIT License
 ```
 
 ## 📄 License
